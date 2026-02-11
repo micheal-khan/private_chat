@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# 💬 Real-Time Chat Application
 
-First, run the development server:
+A modern, scalable real-time chat application built with cutting-edge technologies.
+
+<br/>
+
+<img src="https://skillicons.dev/icons?i=nextjs,ts,tailwind,redis,nodejs" />
+<br/><br/>
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Elysia](https://img.shields.io/badge/Elysia-000000?style=for-the-badge)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+</div>
+
+---
+
+## 🚀 Features
+
+- ⚡ Real-time messaging
+- 🔐 Secure private chats
+- 🧠 Fully type-safe with TypeScript
+- 🎨 Responsive modern UI (Tailwind CSS)
+- 🗄️ Redis Pub/Sub for instant sync
+- 📦 Clean App Router architecture
+- 🔄 Scalable backend using Elysia
+
+---
+
+## 🏗️ Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| Next.js | Frontend Framework |
+| TypeScript | Type Safety |
+| Tailwind CSS | Styling |
+| Redis | Real-time Pub/Sub |
+| Elysia | Backend API |
+| Node.js | Runtime |
+
+---
+
+## 📂 Project Structure
+
+```bash
+├── app/                # Next.js App Router
+├── components/         # UI Components
+├── server/             # Elysia Backend
+├── lib/                # Utilities & Config
+├── public/             # Static Assets
+├── styles/             # Global Styles
+├── package.json
+└── .env
+```
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+npm install
+```
+
+---
+
+## 🔑 Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+REDIS_URL=redis://localhost:6379
+```
+
+---
+
+## 🧪 Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Application runs at:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Production Build
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌍 Deployment
 
-## Deploy on Vercel
+Recommended setup:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Vercel → Frontend
+- Upstash / Redis Cloud → Redis
+- Node.js server → Backend API
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📸 Screenshots
+
+Add your preview image inside `/public` folder:
+
+```md
+![App Preview](public/615shots_so.png)
+```
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+<div align="center">
+
+⭐ If you found this useful, consider starring the repository!
+
+</div>

@@ -6,6 +6,7 @@ A modern, scalable real-time chat application built with cutting-edge technologi
 
 <br/>
 
+
 <img src="https://skillicons.dev/icons?i=nextjs,ts,tailwind,redis,nodejs" />
 <br/><br/>
 
@@ -115,12 +116,7 @@ Recommended setup:
 ---
 
 ## 📸 Screenshots
-
-Add your preview image inside `/public` folder:
-
-```md
-![App Preview](public/615shots_so.png)
-```
+<img src="https://github.com/micheal-khan/private_chat/blob/73f17e4681ab91168398caa346c7757d5cb02c2f/public/preview.png" />
 
 ---
 
